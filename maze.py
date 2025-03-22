@@ -97,7 +97,7 @@ class Maze:
                      self._matrix_maze[i][j].has_bottom_wall = False
                      self._matrix_maze[i][j+1].has_top_wall = False
                 # Left
-                if next_index[1] == i-1:
+                if next_index[0] == i-1:
                      self._matrix_maze[i][j].has_left_wall = False
                      self._matrix_maze[i-1][j].has_right_wall = False 
                 
